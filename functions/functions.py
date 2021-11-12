@@ -1,5 +1,4 @@
 import psutil as ps
-from time import time
 
 def listar_processos():
     """Lista os processos e retorna:\n

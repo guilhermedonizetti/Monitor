@@ -37,11 +37,11 @@
                 <form class="row g-3 needs-validation" action="painel" method="POST" novalidate>
                     <div class="col-md-4">
                       <label for="validationCustom01" class="form-label">Limite de memória (em %)</label>
-                      <input type="number" min="0" step="0.1" placeholder="em %" name="memoria" value="100" class="form-control" id="validationCustom01">
+                      <input type="number" min="0" max="100" step="0.1" placeholder="em %" name="memoria" value="100" class="form-control" id="validationCustom01">
                     </div>
                     <div class="col-md-4">
                       <label for="validationCustom02" class="form-label">Limite de processador (em %)</label>
-                      <input type="number" min="0" step="0.1" placeholder="em %" name="processador" value="100" class="form-control" id="validationCustom02">
+                      <input type="number" min="0" max="100" step="0.1" placeholder="em %" name="processador" value="100" class="form-control" id="validationCustom02">
                     </div>
                     <div class="col-md-4">
                         <label for="validationCustom02" class="form-label">Limite de processos</label>
